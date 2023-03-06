@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    font-size: medium;
+
+}
+.gridArea {
+text-align: center;
+display: table;
+
+height: 230px;
+
+margin-left: auto;
+margin-right: auto;
+}
+
+.pick{
+    border: 1px solid;
+    padding: 1px;
+    display: table-cell;
+    border-radius: 25px;
+    width: 50%;
+    background-color: aquamarine;  /*aquamarine*/
+}
+
+.pick2{
+    background-color: rgb(52, 144, 210);
+    border: 1px solid;
+    display: table-cell;
+    padding: 1px;
+    border-radius: 25px;
+}

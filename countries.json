@@ -1,0 +1,7 @@
+{
+    "Countries": [
+        {"name": "Canada", "code": "CAN", "capital": "Ottawa"}, 
+        {"name": "United States", "code": "USA", "capital": "Washington DC"},
+        {"name": "Germany", "code": "DE", "capital": "Berlin"}
+    ]
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Jisoo Kang-991636291</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+
+    <link href="css/kangjiso.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/secondkangjiso.css">
+
+    <script src="js/kangjiso.js"></script>
+
+    </head>
+
+    <body onload="loadStudent(); loadCountries()">
+        <header id="header"></header>
+        
+        <div class="gridArea">
+            <section class="pick">
+                <header><h3>Select a Country to see the details</h3><header>
+                
+                    <select id="selectBox" onchange="showCountryInfo()"><option>Select a Country</option></select> 
+                                           
+            </section> <!-- class pick ends here-->
+
+            <section class="pick2">
+
+                    <h3>Country information</h3>
+                    <div id="country-Info">
+                </div>
+            </section>
+        </div> <!--gridarea ends here-->
+    
+        <br>
+        <hr>
+        <footer id="footer"></footer>
+    </body>
+</html>
